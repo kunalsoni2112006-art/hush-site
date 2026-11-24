@@ -1,11 +1,14 @@
 {
-  "versionCode": 1,
-  "versionName": "2.0.1",
-  "size": "12 MB",
+  "versionCode": 107,
+  "versionName": "2.0.107",
+  "size": "88 MB",
   "apk": "https://github.com/kunalsoni2112006-art/hush-site/releases/latest/download/hush.apk",
   "notes": [
-    "Games in chat",
-    "Follow requests",
-    "Faster notifications"
+    "Multiplayer games in chat: Tic-tac-toe, Rock Paper Scissors, Truth or Dare",
+    "New camera lenses: Natural, Rose, Dreamy, Dusk, Mono and more",
+    "Dreamy now has light freckles and eyelashes",
+    "Much faster and steadier face tracking",
+    "HD button for sharper photos",
+    "Pinch to zoom in photo preview"
   ]
 }
