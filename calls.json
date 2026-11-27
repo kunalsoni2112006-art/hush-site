@@ -1,3 +1,13 @@
 {
-  "ice": []
-}
+  "ice": [
+    {
+      "urls": [
+        "turn:SERVER-ADDRESS:80",
+        "turn:SERVER-ADDRESS:80?transport=tcp",
+        "turn:SERVER-ADDRESS:443?transport=tcp"
+      ],
+      "username": "f514f7f18fd8b599908e8d25",
+      "credential": "8RFM8Bl92YSdZWJZ"
+    }
+  ]
+} 
