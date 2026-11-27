@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join me on Hush</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at 50% 0%, #3a2370 0%, #0b0914 60%); color: #fff;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .card { width: min(92vw, 380px); text-align: center; padding: 36px 24px; border-radius: 32px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); backdrop-filter: blur(18px); }
+  .dot { width: 84px; height: 84px; margin: 0 auto 18px; border-radius: 50%;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899); display: flex; align-items: center;
+    justify-content: center; font-size: 38px; font-weight: 800; }
+  h1 { margin: 0 0 6px; font-size: 24px; }
+  p { margin: 0 0 24px; color: rgba(255,255,255,.7); font-size: 15px; }
+  a.btn { display: block; padding: 15px; border-radius: 999px; font-weight: 700; font-size: 16px;
+    text-decoration: none; margin-top: 12px; }
+  .open { background: linear-gradient(90deg, #8b5cf6, #ec4899); color: #fff; }
+  .get { background: rgba(255,255,255,.12); color: #fff; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="dot" id="letter">H</div>
+  <h1 id="title">Join me on Hush</h1>
+  <p>Open the link in the Hush app to see the profile.</p>
+  <a class="btn open" id="open" href="hush://u/">Open in Hush</a>
+  <a class="btn get" href="https://github.com/kunalsoni2112006-art/hush-site/releases/latest">Download Hush</a>
+</div>
+<script>
+  var u = (new URLSearchParams(location.search).get("u") || "").replace(/[^A-Za-z0-9_.]/g, "").slice(0, 30);
+  if (u) {
+    document.getElementById("title").textContent = "@" + u + " is on Hush";
+    document.getElementById("letter").textContent = u.charAt(0).toUpperCase();
+    var link = "hush://u/" + u;
+    document.getElementById("open").href = link;
+    setTimeout(function () { location.href = link; }, 400);
+  }
+</script>
+</body>
+</html>

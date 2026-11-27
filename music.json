@@ -1,0 +1,12 @@
+{
+  "note": "Hush music servers. The app reads this file when it starts. If a server stops working, change the address here (no app update needed). Every address must start with https:// and have no slash at the end. The first working one is used.",
+  "saavn": [
+    "https://saavn.sumit.co",
+    "https://saavn.dev"
+  ],
+  "piped": [
+    "https://pipedapi.kavin.rocks",
+    "https://pipedapi.adminforge.de",
+    "https://api.piped.private.coffee"
+  ]
+}
