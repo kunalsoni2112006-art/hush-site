@@ -1,14 +1,20 @@
 {
-  "versionCode": 107,
-  "versionName": "2.0.107",
-  "size": "88 MB",
+  "versionCode": 109,
+  "versionName": "2.0.109",
+  "size": "100 MB",
   "apk": "https://github.com/kunalsoni2112006-art/hush-site/releases/latest/download/hush.apk",
   "notes": [
-    "Multiplayer games in chat: Tic-tac-toe, Rock Paper Scissors, Truth or Dare",
-    "New camera lenses: Natural, Rose, Dreamy, Dusk, Mono and more",
-    "Dreamy now has light freckles and eyelashes",
-    "Much faster and steadier face tracking",
-    "HD button for sharper photos",
-    "Pinch to zoom in photo preview"
+    "Voice and video calls",
+    "Group chats",
+    "Home screen widgets: doodle, nudge and mood board",
+    "QR profile card and invite link",
+    "Mention friends in stories and notes",
+    "Music from JioSaavn and YouTube with part picker",
+    "16 new chat wallpapers and 8 new colours",
+    "Glass chat header and message bar",
+    "New photo and video viewer",
+    "View-once photos stay hidden for the sender",
+    "Profile photo crop and zoom",
+    "Bug fixes and smoother animations"
   ]
 }
